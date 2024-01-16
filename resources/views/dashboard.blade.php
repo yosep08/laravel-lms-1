@@ -1,9 +1,3 @@
-@extends('master')
-
-@section('konten')
-  <h4>Selamat Datang <b>{{Auth::user()->name}}</b>, Anda Login sebagai <b>{{Auth::user()->role}}</b>.</h4>
-@endsection
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +17,7 @@
                     <li><a href="#tutors">Tutors</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="{{route('actionlogout')}}"><i class="fa fa-power-off"">Logout</a></li>
+                    <li><a href="http://127.0.0.1:8000/login">Log In</a></li>
                     <li><a href="http://127.0.0.1:8000/register" class="tbl-biru">Sign Up</a></li>
                 </ul>
             </div>
